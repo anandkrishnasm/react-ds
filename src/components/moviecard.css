@@ -5,10 +5,18 @@
     gap: 8px;
     width: 95%;
     overflow-x: scroll;
+    overflow-y: hidden;
     scrollbar-width: none;
+    border-radius: 10px;
 }
 .list img{
-    height: 400px;
-    width: 500px;
+    height: 300px;
+    width: 250px;
     object-fit: cover;
+}
+.list img:hover{
+    transform: scale(1.1);
+}
+.title{
+    color: white;
 }

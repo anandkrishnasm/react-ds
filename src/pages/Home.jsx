@@ -31,11 +31,12 @@ function Home() {
           <button className="b1">PLAY</button>
           <button className="b2">WATCH TRAILER</button>
         </div>
-        <div className="h1">
-          <h1>Today's Top Picks For You </h1>
-        </div>
+        
       </div>
-      <MovieCard/>
+      <MovieCard Mtitle="New Releases"/>
+       <MovieCard Mtitle="Trending"/>
+      
+
      </div>
     </div>
   )
